@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+mytestproject = "8UUgrNvtDKyGTVP91txbmh1uY8EtSfVKKjbJTvrVGJAt"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "yourWalletPathHere - example: /Users/viktorkuzmanov/.config/solana/id.json" 
+
+[scripts]
+test = "node tests/mytestproject.js"
